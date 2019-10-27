@@ -20,17 +20,33 @@ export PATH=~/CAT/bin:$PATH
 
 2) Invoke your compiler to compile a C program, i.e.
 ```
-$ cat-c program_to_analyse.c -o mybinary
+cat-c program_to_analyse.c -o mybinary
 ```
     
 ```
-$ cat-c -O3 program_to_analyse.c -o mybinary
+cat-c -O3 program_to_analyse.c -o mybinary
 ```
 
 ```
-$ cat-c -O0 program_to_analyse.bc -o mybinary
+cat-c -O0 program_to_analyse.bc -o mybinary
+```
+
+## Tests
+To compile the provided sample tests and compare Catpass output with oracle output for correctness:
+```
+cd tests; make
+```
+
+## Performance
+To compile the provided performance test and measure compilation-time and #CAT invocations:
+```
+cd performance; make
 ```
 	
+## CAT-API library
+CAT API provides an abstraction to prevent LLVM from using any default optimizations on the source code intended to be optimized by CatPass.
+Source files for CAT-api (Cat.c & Cat.h) can be found at performance/misc/ and tests/misc/ 
+
 ## Passes
 
 ### CatPass-0.cpp 

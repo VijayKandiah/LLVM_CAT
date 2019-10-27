@@ -21,10 +21,7 @@ include(AddLLVM)
 
 message(STATUS "LLVM_DIR IS ${LLVM_CMAKE_DIR}.")
 
-include_directories(${LLVM_INCLUDE_DIRS}
-                     /home/vkz4947/CAT/include
-                     )
-					 
+include_directories(${LLVM_INCLUDE_DIRS})
 
 # Declare the LLVM pass to compile
-add_llvm_loadable_module(${CATPassName} ${CATPassSrc})
+add_llvm_library(${CATPassName} MODULE ${CATPassSrc})
