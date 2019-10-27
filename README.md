@@ -21,11 +21,9 @@ The script run_me.sh compiles and installs an LLVM-based compiler that includes 
   2) Invoke your compiler to compile a C program. For example
 	```
     $ cat-c program_to_analyse.c -o mybinary
-	```
-	```
+	
     $ cat-c -O3 program_to_analyse.c -o mybinary
-	```
-	```
+	
     $ cat-c -O0 program_to_analyse.bc -o mybinary
 	```
 	
