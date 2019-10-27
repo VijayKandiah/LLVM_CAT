@@ -43,11 +43,12 @@ To compile the provided performance test and measure compilation-time and #CAT i
 cd performance; make
 ```
 	
-## CAT-API library
+## CAT API library
 CAT API provides an abstraction to prevent LLVM from using any default optimizations on the source code intended to be optimized by CatPass.
-Source files for CAT-api (Cat.c & Cat.h) can be found at performance/misc/ and tests/misc/ 
+Source files for CAT API (CAT.c & CAT.h) can be found at performance/misc/ and tests/misc/ 
 
 ## Passes
+Here is a brief description of each version of CatPass found at passes/
 
 ### CatPass-0.cpp 
 Prints function name and body for every bitcode function in a program.
