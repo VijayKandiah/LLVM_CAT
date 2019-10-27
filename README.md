@@ -60,13 +60,13 @@ Performs intra-procedural Constant Propagation, Constant Folding, and Dead Code 
 Reduces the conservativeness of the previous pass by using AliasAnalyis to compute reaching definitions.
 
 ### CatPass-7.cpp 
-Uses Function-Inlining to perform inter-procedural Constant Propagation, Constant Folding, and Dead Code Elimination for CAT variables. Also added a naive constant folding pass for non-CAT variables.
+Added Function Inlining to perform inter-procedural Constant Propagation, Constant Folding, and Dead Code Elimination for CAT variables. Also added a naive constant folding pass for non-CAT variables.
 
 ### CatPass-8.cpp 
-Made the reaching definition analysis inter-procedural to enable constant propagation to function input parameters and function return value propagation to call site. Added Function Cloning, Loop Unrolling and Loop Peeling.
+Added Function Cloning, Loop Unrolling and Loop Peeling. Made the reaching definition analysis inter-procedural to enable constant propagation to function input parameters and function return value propagation to call site. 
 
 ### CatPass-9.cpp 
 Various optimizations to considerably improve compilation time of the pass. Replaces unnecessary conditional branches with unconditional branches to further enable Constant Propagation and Constant Folding passes.
 
 ### CatPass-final.cpp 
-Added Loop-Rotation to enable/unblock further loop optimizations such as Loop Peeling which in-turn unblocks Constant Propagation and Constant Folding passes. 
+Added Loop Rotation to enable/unblock further loop optimizations such as Loop Peeling which in-turn unblocks Constant Propagation and Constant Folding passes. 
