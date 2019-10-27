@@ -1,0 +1,3 @@
+Before loop: 	Value = 5
+After loop:	Value = 5, 1.005320
+CAT invocations = 1

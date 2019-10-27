@@ -1,0 +1,2 @@
+H5: 	Value of d1 = 5
+CAT invocations = 2

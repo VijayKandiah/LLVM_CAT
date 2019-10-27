@@ -1,0 +1,7 @@
+H1: 	Y = 8
+H1: 	X = 8
+H1: 	Z = 2
+H1: 	Y = 16
+H1: 	X = 16
+H1: 	Z = 2
+CAT invocations = 5

@@ -1,0 +1,9 @@
+Z: 0
+Z: 42
+Z: 1
+Z: 84
+Z: 1
+Z: 168
+Z: 1
+Z: 336
+CAT invocations = 23

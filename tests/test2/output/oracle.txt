@@ -1,0 +1,2 @@
+6 5 6
+CAT invocations = 3

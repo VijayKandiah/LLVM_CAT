@@ -1,0 +1,4 @@
+H1: 	X    = 16
+H1: 	Ref1 = 16
+H1: 	Ref2 = 16
+CAT invocations = 5

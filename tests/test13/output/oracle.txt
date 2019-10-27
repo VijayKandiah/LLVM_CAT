@@ -1,0 +1,2 @@
+Values: 7 5 7
+CAT invocations = 3

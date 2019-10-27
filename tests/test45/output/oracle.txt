@@ -1,0 +1,4 @@
+X: 40
+Y: 2
+Z: 42
+CAT invocations = 6

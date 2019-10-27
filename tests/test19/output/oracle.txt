@@ -1,0 +1,6 @@
+H1: 	Value 1 = 8
+H1: 	Value 2 = 8
+H1: 	Result = 16
+H1: 	Y = 8
+Result 2 = 16
+CAT invocations = 9

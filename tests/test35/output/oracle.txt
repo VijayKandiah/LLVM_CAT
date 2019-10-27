@@ -1,0 +1,3 @@
+Value: 5
+Value at the end: 5
+CAT invocations = 1

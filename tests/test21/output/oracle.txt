@@ -1,0 +1,3 @@
+H1: 	Value 2 = 8
+H1: 	Result = 24
+CAT invocations = 6

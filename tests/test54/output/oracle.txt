@@ -1,0 +1,7 @@
+L1: 5
+L2: 5
+Result = 42
+
+
+
+CAT invocations = 44
