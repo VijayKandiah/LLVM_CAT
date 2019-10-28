@@ -9,7 +9,7 @@ Copy a version of CatPass from passes/ into CAT-c/catpass/CatPass.cpp, i.e.
 ```
 cp passes/Catpass-1.cpp CAT-c/catpass/Catpass.cpp
 ```
-Compile and install your code by invoking ./CAT-c/run_me.sh
+Compile and install your code at ```CAT-c/catpass/Catpass.cpp``` with ```cd CAT-c; ./run_me.sh```
 The script run_me.sh compiles and installs an LLVM-based compiler that includes your CAT in the directory ~/CAT
 
 ## Run
