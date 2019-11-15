@@ -48,7 +48,7 @@ CAT API provides an abstraction to prevent LLVM from using any default optimizat
 Source files for CAT API (CAT.c & CAT.h) can be found at performance/misc/ and tests/misc/ 
 
 ## Passes
-Here is a brief description of each version of CatPass found at passes/
+Here is a brief description of each version of CatPass found at passes/. Please visit the course's webpage https://users.cs.northwestern.edu/~simonec/CAT.html for more information.
 
 ### CatPass-0.cpp 
 Prints function name and body for every bitcode function in a program.
